@@ -1,0 +1,10 @@
+#divFavourites, #divSearchHome{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    aling-self: flex-start;
+    margin-right: auto;
+}
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}

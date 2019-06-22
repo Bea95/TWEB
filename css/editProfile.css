@@ -1,0 +1,51 @@
+#userDivFlag, #divFlag, #userDivTopic, #divTopic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid;
+    border-color: #F78F1A;
+    min-height: 8rem;
+}
+
+.panel {
+    flex: 0 0 50%;
+}
+
+.section {
+    border: 1px solid;
+    border-color: #F78F1A;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 1rem;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.card-center {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.orange {
+    border-color: #F78F1A;
+}
+
+.responsive {
+    flex: 0 0 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #F78F1A;
+}
+.checked {
+    color: orange;
+}
+
+.center {
+    text-align: center;
+}
+
+.card-center {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.orange {
+    border-color: #F78F1A;
+}
+.bold {
+    font-weight: bold;
+}
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+.fixed {
+    display: flex;
+}
+#divSearchUserProfile{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}

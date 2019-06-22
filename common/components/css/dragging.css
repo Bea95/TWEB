@@ -1,0 +1,32 @@
+#userDivFlag, #divFlag, #userDivTopic, #divTopic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid;
+    border-color: lightgrey;
+    background-color: white;
+    min-height: 8rem;
+}
+
+.panel {
+    flex: 0 0 50%;
+    background-color: #fff3a6;
+}
+
+.section {
+    border: 1px solid;
+    border-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.center{
+    text-align: center;
+}

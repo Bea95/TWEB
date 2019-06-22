@@ -1,0 +1,22 @@
+.form-group {
+    box-shadow: 10px 10px 5px grey;
+    background-color: #fff3a6;
+    min-width: 20rem;
+    max-width: 50rem;
+    padding: 1rem;
+}
+.center {
+    text-align: center;
+}
+
+.card-center {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.section {
+    max-width: 50rem;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
